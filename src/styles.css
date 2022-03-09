@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+.flex {
+    display: flex;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}

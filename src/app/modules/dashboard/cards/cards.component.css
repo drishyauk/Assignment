@@ -1,0 +1,16 @@
+
+.card-details {
+    border: 1px solid #ccc;
+}
+
+.hide {
+    display: none;
+    position: relative;
+    top: -70px;
+    right: -125px;
+  }
+      
+  .myDIV:hover + .hide {
+    display: block;
+    color: red;
+  }

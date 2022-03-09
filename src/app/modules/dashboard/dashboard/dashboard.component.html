@@ -1,0 +1,13 @@
+<div class="sidenav">
+    <app-side-nav></app-side-nav>
+  </div>
+  
+  <div class="main">
+    <div class="main-header flex justify-content-end align-item-center">
+      <div>Welcome {{userMail}}</div>
+    </div>
+    
+    <div class="cards grid-container">
+      <app-cards *ngFor="let books of cardDetails" [cardDetails]="books"></app-cards>
+    </div>
+  </div>

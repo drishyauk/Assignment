@@ -1,0 +1,8 @@
+<div class="container">
+    <form [formGroup]="registrationForm">
+        <div class="flex">
+            <input type="email" name="email" class="email form-control" formControlName="email" placeholder="example@abc.com">
+            <div class="flex align-item-center"><i class="fa fa-angle-right" aria-hidden="true" (click)="onSubmit()"></i></div>
+        </div>
+    </form>
+</div>

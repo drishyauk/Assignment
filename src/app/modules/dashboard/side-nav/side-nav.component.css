@@ -1,0 +1,27 @@
+
+  .sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ccc;
+    color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .dates, .price, .filterBy {
+      margin-top: 10px;
+  }
+
+  .mt-2 {
+    margin-top:3rem;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

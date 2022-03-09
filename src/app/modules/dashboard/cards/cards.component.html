@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="card-details" *ngIf="cardDetails; else noRecord">
+        <div class="cards">
+            <div class="card-header flex justify-content-between">
+                <div class="bookName">{{cardDetails.bookName}}</div>
+                <div href="#" class="myDIV"><i class="fa fa-info-circle" aria-hidden="true"></i></div>
+
+            <div class="hide">Display dates here!!</div>
+            </div>
+            <div class="card-body flex justify-content-end">
+                {{cardDetails.author}}
+            </div>  
+
+        </div>
+    </div>
+    <div class="price-rating flex justify-content-between">
+        <div class="price">
+            ${{cardDetails.price}}
+        </div>
+        <div class="ratings">
+            {{cardDetails.rating}}
+        </div>
+    </div>
+</div>
+
+<ng-template #noRecord>
+<div class="noRecordMsg">No Records Available</div>
+</ng-template>
